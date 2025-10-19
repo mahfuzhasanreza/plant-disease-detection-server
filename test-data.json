@@ -1,0 +1,58 @@
+{
+  "diseases": [
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Healthy",
+      "treatment": "Plant looks healthy! Continue regular watering and ensure good sunlight.",
+      "confidence": "95%"
+    },
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Early Blight",
+      "treatment": "Apply fungicide spray. Remove affected leaves. Improve air circulation.",
+      "confidence": "87%"
+    },
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Late Blight",
+      "treatment": "Remove infected plants immediately. Apply copper-based fungicide.",
+      "confidence": "92%"
+    },
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Bacterial Spot",
+      "treatment": "Use copper-based bactericide. Avoid overhead watering. Remove infected leaves.",
+      "confidence": "88%"
+    },
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Septoria Leaf Spot",
+      "treatment": "Apply fungicide weekly. Mulch around plants. Water at soil level only.",
+      "confidence": "86%"
+    },
+    {
+      "plantType": "Tomato",
+      "diseaseType": "Target Spot",
+      "treatment": "Increase air circulation. Apply preventive fungicide. Remove lower leaves.",
+      "confidence": "84%"
+    },
+    {
+      "plantType": "Potato",
+      "diseaseType": "Healthy",
+      "treatment": "Excellent condition! Maintain current care routine.",
+      "confidence": "98%"
+    },
+    {
+      "plantType": "Potato",
+      "diseaseType": "Late Blight",
+      "treatment": "Critical: Remove infected areas. Apply protective fungicide spray.",
+      "confidence": "89%"
+    },
+    {
+      "plantType": "Potato",
+      "diseaseType": "Early Blight",
+      "treatment": "Apply fungicide at first sign. Rotate crops. Improve soil drainage.",
+      "confidence": "91%"
+    }
+  ]
+}
