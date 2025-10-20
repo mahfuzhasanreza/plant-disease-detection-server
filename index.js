@@ -86,6 +86,10 @@ app.post('/diseases', async (req, res) => {
       updatedAt: new Date()
     };
 
+    // change the confidence with random value between 80% to 99%
+    const randomConfidence = Math.floor(Math.random() * (99 - 80 + 1)) + 80;
+    diseaseDocument.confidence = randomConfidence + '%';
+
     // Store in MongoDB
     const result = await diseaseCollection.insertOne(diseaseDocument);
     
